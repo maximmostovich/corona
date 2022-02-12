@@ -76,6 +76,10 @@ body {
 }
 /* MOBILE SMALL */
 @media (max-width: 479.98px){
+    .stay-safe__container {
+       flex-direction: column;
+    }
+   
 }
 
 .header {
