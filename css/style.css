@@ -73,12 +73,13 @@ body {
     [class*="__container"] {
         max-width: none;
     }
-  .stay-safe__container {
-       flex-direction: column;
-    }
+    .stay-safe__container {
+        flex-direction: column;
+     }
 }
 /* MOBILE SMALL */
-@media (max-width: 479.98px){  
+@media (max-width: 479.98px){
+   
 }
 
 .header {
@@ -281,7 +282,19 @@ body {
     font-size: 44px;
     line-height: 126%;
     color: #000;
+
+
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
 }
+.block-text__title._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+
+
 .block-text__title:not(:last-child) {
     margin: 0px 0px 12px 0px;
 }
