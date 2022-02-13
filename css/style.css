@@ -284,12 +284,12 @@ body {
     color: #000;
 
 
-    transform: translate(0px, 120%);
-    opacity: 0;
+    transform: translate(0px, 0%);
+    opacity: 1;
     transition: all 0.8s ease 0s;
 }
 .block-text__title._active {
-    transform: translate(0px, 0px);
+    transform: translate(0px, -20%);
     opacity: 1;
 }
 
